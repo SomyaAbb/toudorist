@@ -1,0 +1,126 @@
+/* main banner hp */
+.banner {
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 160px;
+  margin-top: 8%;
+  margin-right: -33px;
+  .container{
+    margin-left: 9% !important;
+  }
+  h1 {
+    margin: 0;
+    color: #333;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    font-weight: bold;
+    text-align:start;
+    width: 59%;
+    margin-left: 2%;
+  }
+  p {
+    color: #737373;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: start;
+    margin-top: 2%;
+    width: 55%;
+    margin-left: 2%;
+  }
+  .btn-article {
+    margin-left: 18px;
+    }
+}
+
+.banner.hp {
+  height: 65vh !important;
+}
+
+/* generic banner hp*/
+.banner-hp {
+  width: 77%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  align-items: center;
+  margin-left: 10%;
+  h1{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 120%;
+    width: 50%;
+  }
+  p{
+    color: white;
+    width: 70%;
+    flex: none;
+    align-self: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    width: 40%;
+  }
+  .banner {
+    border-radius: 2rem;
+    height: 60vh;
+  }
+}
+
+/* generic banner lp*/
+.banner.lp {
+margin-top: 2%;
+}
+
+
+.banner {
+  position: relative;
+  .container{
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+
+.banner-image {
+  width: 111%;
+  right: 67px;
+  position: relative;
+  max-width: 500px; /* Définissez une largeur maximale pour l'image */
+  /* margin-right: 3%; */
+}
+
+.btn-next-to{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-article.transparent a{
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.btn-article.transparent a:hover{
+  background-color: #f4f4f4;
+}

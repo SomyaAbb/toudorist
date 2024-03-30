@@ -1,0 +1,618 @@
+
+ <%= render 'components/navbar' %>
+
+<div class="all">
+<%# HP PANNER %>
+<div class="flex-bann-landing">
+  <div class="banner lp" style="background-image: url('/assets/main-c-1.jpg')";>
+    <div class="home-titles">
+      <h1>
+        Cambodia
+      </h1>
+      <%# <h2>Experience a new way to share and exchange within your company for free !</h2> %>
+
+<div class="navbar navbar-expand-sm navbar-light navbar-toudorist lp">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+      <li class="nav-item active">
+    <button class="btn-1" onclick="window.location.href='#myitinerary';">
+      <p><%= link_to "Recommended itinerary", "#" %></p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="4"
+      >
+      </svg>
+    </button>
+    </li>
+    <li class="nav-item active">
+    <button class="btn-2" onclick="window.location.href='#todo';">
+      <p><%= link_to "Your to-do", "#" %></p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="4"
+      >
+      </svg>
+    </button>
+    </li>
+    <li class="nav-item active">
+    <button class="btn-3" onclick="window.location.href='#tips';">
+    <p><%= link_to "Time for tips", "#" %></p>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="4"
+    >
+    </svg>
+    </button>
+          </li>
+          <li class="nav-item active">
+                    <button class="btn-4" onclick="window.location.href='#explore';">
+    <p><%= link_to "More to explore", "#" %></p>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="4"
+    >
+    </svg>
+    </button>
+    <li class="nav-item active">
+                    <button class="btn-5" onclick="window.location.href='#tiktok';">
+    <p><%= link_to "More on Tiktok", "#" %></p>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="4"
+    >
+    </svg>
+    </button>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<%# <div class="banner-hp">
+        <div class="banner cambia" style="background-image: url('/assets/banner-p.jpg');">
+          <div class="container">
+            <h1><strong>Philippines</strong></h1>
+            <p>The hidden treasures of Cambodia, where history and adventure collide.</p>
+          </div>
+        </div>
+      </div> %>
+<%#
+<div class="travel-itinerary">
+  <div class="itinerary-block a">
+  <h6><a href="#step0">Recommended Itinerary</a></h6>
+  </div>
+  <div class="itinerary-block b">
+  <h6><a href="#step1">Your To-Do</a></h6>
+  </div>
+  <div class="itinerary-block d">
+  <h6><a href="#step3">Time for Tips</a></h6>
+  </div>
+  <div class="itinerary-block e">
+  <h6><a href="#step4">More to Explore</a></h6>
+  </div>
+  <div class="itinerary-block e">
+  <h6><a href="#step5">More on Tiktok</a></h6>
+  </div>
+</div> %>
+
+
+<div class="myitinerary-block" id="myitinerary">
+    <div class="flex hiw2 block2 e">
+        <h1 class="title-timefortips">Recommended
+            <button>
+                Itinerary
+                <div class="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </button>
+        </h1>
+        <div class="flex-itinerary-blocks">
+            <div class="steps-itinerary-first">
+                <div class="step a">
+                    <h6>1 Siem Reap</h6>
+                    <p> 4 days</p>
+                </div>
+                <div class="step b">
+                    <h6>2 Phnom Penh</h6>
+                    <p> 2 days</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-itinerary-img">
+        <%= image_tag "c-5.jpg", height:500 , width: 350, class: "hiw3"%>
+    </div>
+</div>
+
+<div class="container-todo" id="todo">
+  <div class="to-do-list-container">
+      <%# <h6 class="subtitle-to-do">7 places</h6> %>
+      <h1 class="title-yourtodo">Your
+          <button>
+              To-Do
+              <div class="star-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+          </button>
+      </h1>
+  </div>
+
+
+  <div class="container overflow">
+    <div class="todo-scroll">
+      <div class="flex-center-blocks-hiw" id="step0">
+        <%= image_tag "c-14.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="flex-todo">
+            <h1>Siem Reap</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input checked="" value="1" name="r" type="checkbox" id="01">
+              <label for="01">Sunrire and sunset in Angkor Wat.</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Bayon temple</label>
+              <input value="3" name="r" type="checkbox" id="03">
+              <label for="03">Ta prohm temple, the one in Tomb rider</label>
+              <input value="4" name="r" type="checkbox" id="04">
+              <label for="04">Baphuon temple, don't miss the monkeys</label>
+              <input value="5" name="r" type="checkbox" id="05">
+              <label for="05">Ta Som temple if you have more time</label>
+              <input value="6" name="r" type="checkbox" id="06">
+              <label for="06">Take a break at Brown coffee</label>
+              <input value="7" name="r" type="checkbox" id="07">
+              <label for="07">Try Amok fish at New Hope Restaurant</label>
+              <input value="8" name="r" type="checkbox" id="08">
+              <label for="08">Visit the city center</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+      <div class="flex-center-blocks-hiw last" id="step1">
+        <%= image_tag "c-1.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="flex-todo b">
+          <h1>Phnom Penh</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input checked="" value="9" name="r" type="checkbox" id="09">
+              <label for="09">Visit the Royal Palace</label>
+              <input value="10" name="r" type="checkbox" id="10">
+              <label for="10">Visit the national museum</label>
+              <input value="11" name="r" type="checkbox" id="11">
+              <label for="11">Enjoy the city, night markets and local food</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tips" id="tips">
+<div class="flex hiw2 block2 tips">
+    <h1 class="title-timefortips">Time for
+        <button>
+            Tips
+            <div class="star-1">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-2">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-4">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-5">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-6">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+        </button>
+      </h1>
+      <p>- Book the Angkor pass online <a href="https://www.angkorenterprise.gov.kh/">here</a>, 3 days pass is good
+      <br>
+      - Rent a motorbike, cheeper and easier, i rent mine <a href="https://www.google.com/search?q=Ratha+motorbike+and+bike+rental+siem+reap&sca_esv=652ec1b02583bbe2&rlz=1C5CHFA_enFR1052FR1054&sxsrf=ACQVn08ww5gio2pqHwuvoT8592azy5qRfw%3A1710998513342&ei=8cP7ZZ2dFPKdseMP6si-wAI&ved=0ahUKEwjd2eSUzoSFAxXyTmwGHWqkDygQ4dUDCBA&uact=5&oq=Ratha+motorbike+and+bike+rental+siem+reap&gs_lp=Egxnd3Mtd2l6LXNlcnAiKVJhdGhhIG1vdG9yYmlrZSBhbmQgYmlrZSByZW50YWwgc2llbSByZWFwMgQQIxgnSLIFUABYrwNwAHgAkAEAmAFToAGPAaoBATK4AQPIAQD4AQGYAgKgApgBwgIHECMYsAIYJ5gDAJIHATKgB5wG&sclient=gws-wiz-serp#ip=1">here</a>  <br>
+      - My ride or die is <a href="https://www.decathlon.my/p/isothermal-cover-for-hiking-water-bottle-1-2-to-1-5-litre-grey-blue-quechua-8575942.html">this bottle bag</a>, the weather is so hot so having a cold bottle of water is so precious <br>
+      - I recommend you to add Koh rong islands to your itinerary </p>
+      <div class="destructured-img-hiw">
+          <%= image_tag "c-9.jpg", height:500 , width: 350, class: "hiw3"%>
+          <%= image_tag "c-6.jpg", height:500 , width: 350, class: "hiw1"%>
+          <%= image_tag "c-7.jpg", height:500 , width: 350, class: "hiw4"%>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="more-to-explore-block" id="explore">
+    <div class="flex hiw2 block2 b">
+        <h1 class="title-moretoexplore">More to
+            <button>
+                Explore
+                <div class="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </button>
+        </h1>
+        <p>If you have more time, I recommend you to explore: <br>
+           - Battambang (Bamboo Train, Killing Caves of Phnom Sampeau, Wat Banan, Battambang Bat Caves) <br>
+           - Koh Rong (Long Beach, Sok San Beach, Koh Rong Dive Center, Coconut Beach) <br>
+           - Mondulkiri (Elephant Valley Project, Bou Sra Waterfall, Sen Monorom, Seima Protection Forest) <br>
+        </p>
+    </div>
+    <div class="flex-img-hiw">
+        <%= image_tag "c-4.jpg", height:500 , width: 350, class: "hiw3"%>
+    </div>
+</div>
+
+
+
+<div class="check-out-block" id="tiktok">
+    <div class="flex hiw2 block2 c">
+        <h1>More on
+            <button>
+                Tiktok
+                <div class="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-200.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </button>
+
+            <div class="section-inner">
+                <div class="cases-slider embla js-embla-slider aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
+
+                    <div class="embla__container cursor-slider cursor-blue"  >
+
+
+                        <div class="embla__slide">
+                            <a href="https://www.tiktok.com/@somymym/video/7344424998494391585" class="cases-box">
+                                <div class="cases-box__bg">
+                                    <picture>
+                                        <%= image_tag "fond.jpg" %>
+                                    </picture>
+                                </div>
+                                <div class="cases-box__title"><h6>Baphuon's Monkeys</h6></div>
+                                <div class="cases-box__text"><p>Don't miss the cute monkeys playing in the bassin in front of Baphuon temple.</p></div>
+                                <div class="cases-box__img">
+                                    <%= video_tag "c-1.mp4", autoplay: true, muted: true, loop: true, playsinline: true %>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="https://www.tiktok.com/@somymym/photo/7344343111738395936" class="cases-box">
+                                <div class="cases-box__bg">
+                                    <picture>
+                                        <%= image_tag "fond-3.jpg" %>
+                                    </picture>
+                                </div>
+                                <div class="cases-box__title"><h6>Ta Prohm temple</h6></div>
+                                <div class="cases-box__text"><p>Live your childhood dream and visit the famous Ta Prohm temple, the one in the Tomb Rider movie.</p></div>
+                                <div class="cases-box__img">
+                                    <%= video_tag "c-2.mp4", autoplay: true, muted: true, loop: true, playsinline: true %>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="https://www.tiktok.com/@somymym/photo/7344348908644027680" class="cases-box">
+                                <div class="cases-box__bg">
+                                    <picture>
+                                        <%= image_tag "fond-2.jpg" %>
+                                    </picture>
+                                </div>
+                                <div class="cases-box__title"><h6>Angkor complex</h6></div>
+                                <div class="cases-box__text"><p>To me it is definitely the most beautiful temple complex in the world!</p></div>
+                                <div class="cases-box__img">
+                                    <%= video_tag "c-3.mp4", autoplay: true, muted: true, loop: true, playsinline: true %>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </h1>
+    </div>
+</div>
+
+
+<%# <div class="embla__buttons">
+                        <button class="embla__button embla__button--prev" type="button">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+</button>
+<button class="embla__button embla__button--next" type="button">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+</button>
+                    </div> %>
+
+<%#
+<div class="flex-center-blocks-hiw" id="step3">
+<%= image_tag "philipp1.jpeg", height:500 , width: 350, class: "hiw3"%>
+<%# <div class="flex-todo"> %>
+    <%# <h1>Itinerary reco</h1> %>
+    <%# <div class="step2-hiw-block"> %>
+        <%# <div class="good-t-k"> %>
+          <%# <p>- 4 days in Siem Reap %>
+          <%# <br> %>
+          <%# - 3 days in Phnom penh<br> %>
+          <%# - 3 days in Koh Rong </p> %>
+        <%# </div> %>
+        <%# </div> %>
+<%# </div> %>
+  <%# </div> %>
+<%# </div> %>
+</div>
+
+<%= render 'components/footer' %>

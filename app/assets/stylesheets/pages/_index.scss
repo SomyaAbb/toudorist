@@ -1,2 +1,67 @@
 // Import page-specific CSS files here.
 @import "home";
+
+/* Custom designs */
+@import url(components/_banner.css);
+@import url(components/_buttons.css);
+@import url(components/_cards.css);
+@import url(components/_searchbar.css);
+@import url(components/_footer.css);
+@import url(components/_navbar.scss);
+@import url(components/_wrapper.scss);
+@import url(components/_chatroom.scss);
+@import url(components/_map.scss);
+@import url(components/_about_show.css);
+@import url(components/_responsive.css);
+
+// Accommodation/index Title+Subtitle
+.container {
+  .container-all-accommodations{
+    .title-subtitle {
+      display: flex;
+      align-items: center;
+      }
+    .title-subtitle p {
+      margin-top: 4%;
+      margin-left: 1%;
+      margin-bottom: 1.5%;
+    }
+  }
+  .container-all-accommodations h4 {
+    padding-top: 2%;
+    color: var(--bs-heading-color);
+    padding-right: 1%;
+    padding-left: 4px;
+    margin-bottom: 0px;
+    }
+  .container-all-accommodations p {
+    color: #747474;
+  }
+}
+
+
+//   .map-exchange-valid .main-container-pp,{
+//   transform: scale(0.95899);
+// }
+
+.main-container-lp, .main-container{
+transform: scale(0.96899);
+background-color: #F8F8F8;
+}
+
+.all-final {
+  transform: scale(0.9);
+  background-color: #F8F8F8;
+  }
+
+.wrapper{
+  background-color: #F8F8F8;
+}
+
+body{
+  background-color: #F8F8F8;
+}
+
+.banner-lp.about.valid{
+  margin-right: 55%;
+}
