@@ -1,0 +1,20 @@
+<div class="cards-container">
+  <% @accommodations.each do |accommodation| %>
+    <%= link_to accommodation do %>
+      <div class="card-trip">
+        <div>
+          <%= cl_image_tag accommodation.photos[0].key, height: 270, width: 400, crop: :fill %>
+        </div>
+        <div class="card-trip-infos">
+          <div>
+            <h2> <%= accommodation.address.split.last %></h2>
+            <p><%= accommodation.user.first_name %> · <%= accommodation.user.job %></p>
+          </div>
+          <div class="name-job">
+          </div>
+          <%= cl_image_tag accommodation.user.photo.key, height: 50, width: 50, crop: :fill, class: "card-trip-user avatar-bordered"  %>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>

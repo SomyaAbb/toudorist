@@ -1,0 +1,75 @@
+<%# navbar %>
+<div class="navbar navbar-expand-sm navbar-light navbar-toudorist">
+  <div class="container-fluid">
+    <div class="flex-logos">
+      <%= link_to "/", class: "navbar-brand" do %>
+        <%= image_tag "tou-do-rist.png", class: "logo-img" %>
+      <% end %>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+      <li class="nav-item active">
+<button class="btn-1" onclick="window.location.href='/about';">
+  <p><%= link_to "About us", "/about" %></p>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    stroke-width="4"
+  >
+  </svg>
+</button>
+</li>
+        <%# if user_signed_in? %>
+          <li class="nav-item active">
+          <button class="btn-2" onclick="window.location.href='/southeastasia';">
+  <p><%= link_to "Southeast Asia", "/southeastasia" %></p>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    stroke-width="4"
+  >
+  </svg>
+</button>
+          </li>
+          <li class="nav-item active">
+                    <button class="btn-3" onclick="window.location.href='/eastasia';">
+  <p><%= link_to "East Asia", "/eastasia" %></p>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    stroke-width="4"
+  >
+  </svg>
+</button>
+</button>
+          </li>
+          <li class="nav-item active">
+                    <button class="btn-4" onclick="window.location.href='/middleeast';">
+  <p><%= link_to "Middle East", "/middleeast" %></p>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    stroke-width="4"
+  >
+  </svg>
+</button>
+          </li>
+      </ul>
+    </div>
+  </div>
+</div>

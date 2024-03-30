@@ -1,0 +1,80 @@
+<%= render 'components/navbar' %>
+
+<div class="wrapper">
+
+  <div class="main-container">
+  <div class="div-empower-team last">
+  <h1>About us</h1>
+  </div>
+  </div>
+        <div class="flex-article">
+          <div class="artcile-img">
+            <%= image_tag "japan-me.jpeg", height: 570, width: 440, crop: :fill, class: "article-img" %>
+          </div>
+          <div class="article-text">
+            <div class="flex-article-photo-title">
+              <%= image_tag "Somya.jpg", height: 65, width: 65, crop: :fill, class: "avatar-hp dropdown-toggle", id: "article-user-avatar", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+              <h5><b>Somya</b> <br>
+              About us</h5>
+            </div>
+            <p> After 4.5 years working as an e-store specialist at Back Market, I decided to take a 6 months break to travel around Asia. From the marvellous valleys of Vietnam to the ancient temples of Angkor in Cambodia and the majestic Mount Fuji in Japan. I went to 9 countries from South to North Asia, and I'm sharing with you my to-do of things you definitely must do!
+            </p>
+          </div>
+        </div>
+
+<div class="roadtrip">
+  <div class="div-empower-team">
+    <h1>Our roadtrip</h1>
+    <div class="flex div-3blocks">
+      <div class="eyt-block a">
+        <h3 class="eyt-text-a">After</h3>
+        <h3 class="eyt-text-b">6 months</h3>
+        <h3 class="eyt-text-c">backpacking through South to North Asia.</h3>
+      </div>
+      <div class="eyt-block b">
+        <h3 class="eyt-text-a">Discovering</h3>
+        <h3 class="eyt-text-b">10 countries</h3>
+        <h3 class="eyt-text-c">from the valleys of vietnam to the majestic volcanoes of Japan.</h3>
+      </div>
+      <div class="eyt-block c">
+        <h3 class="eyt-text-a">And more than</h3>
+        <h3 class="eyt-text-b">+35000km</h3>
+        <h3 class="eyt-text-c">by bus, sleeper train, tuktuk and plane.</h3>
+      </div>
+    </div>
+    <div class="flex div-2blocks">
+      <div class="eyt-block d">
+        <h3 class="eyt-text-a">I share with you</h3>
+        <h3 class="eyt-text-b">Our to-do list of must-dos in each country.</h3>
+      </div>
+      <div class="eyt-block e img">
+            <%= image_tag "eleph-1.jpg", height: 360, width: 550, crop: :cover %>
+      </div>
+    </div>
+  </div>
+  <div class="btn-article w-margin">
+    <%= link_to "Discover", "/index", class: "btn-article about hp" %>
+  </div>
+</div>
+
+
+
+        <%# banner-hp %>
+      <%# <div class="banner-hp">
+        <div class="banner" style="background-image: url('/assets/banner-angkor.png');">
+          <div class="container">
+            <h1><strong>Cambodia</strong></h1>
+            <p>The hidden treasures of Cambodia, where history and adventure collide.</p>
+            <div class="btn-hp-end">
+              <%= link_to "Discover Cambodia", "/cambodia", class: "btn" %>
+            <%# </div>
+          </div>
+        </div>
+      </div> %>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<%= render 'components/footer' %>

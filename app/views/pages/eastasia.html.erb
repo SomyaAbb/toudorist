@@ -1,0 +1,47 @@
+<%= render 'components/navbar' %>
+
+<div class="wrapper">
+  <div class="main-container">
+  <div class="div-empower-team last">
+  <h1>East Asia collection</h1>
+  </div>
+    <div class="card-group">
+  <div class="card last">
+  <%= link_to "/japan", class: "image-link" do %>
+      <%= image_tag "fujisan.jpeg" %>
+    <div cLass="layer"></div>
+    <div class="info">
+      <h1>Japan</h1>
+      <p>
+      From Shibuya crossing to Fuji-san.
+      </p>
+      <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+  <div cLass="card last">
+  <%= link_to "/southkorea", class: "image-link" do %>
+      <%= image_tag "korea1.jpeg" %>
+    <div cLass="layer"></div>
+    <div class="info">
+      <h1>South Korea</h1>
+      <p>
+      Beyond k-ppop and k-drama!
+      </p>
+      <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+  </div>
+</div>
+  </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<%= render 'components/footer' %>

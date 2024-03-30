@@ -1,0 +1,599 @@
+// SHOW ACCOMMODATION
+.main-container-pp {
+  margin: 40px;
+}
+// separator
+.separator {
+  border-top: 1px solid #c8c8c8;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 1%;
+}
+
+// photos
+.main-photo {
+  width: 1000px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  .main-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+  }
+}
+
+.secondary-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  // flex-basis: 40%;
+  .secondary-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+  }
+}
+
+
+// user+accommodation infos
+
+
+.container{
+  margin-left:6%;
+  margin-right: 3%;
+  .pp-details {
+    margin-left: 4%;
+    color: black;
+    i {
+      color: #C14214;
+    }
+    h6, h5 {
+      font-weight: bolder;
+      margin-left: 0%;
+      margin-bottom: 4%;
+      }
+    p {
+        color: rgb(59, 59, 59);
+        font-weight: lighter;
+      }
+    .user-bio {
+        display: flex;
+        align-items: center;
+        text-align: right;
+        .desc-user h6{
+          margin-top: 8%;
+          margin-right: 7%;
+
+        }
+        .avatar-pp {
+          border-radius: 50%;
+          vertical-align: top;
+        }
+        .avatar-pp:hover {
+          color: black;
+          transition: 0.4s;
+          transform: scale3d(1.015, 1.015, 2)
+        }
+      }
+  }
+  .container-pp {
+    margin-top: 3%;
+  }
+  h4{
+    color: black;
+  }
+  .container-first-infos h1{
+    font-weight: bolder;
+    color: black;
+  }
+  .container-first-infos{
+    margin-top: 8%;
+    margin-bottom: 3%;
+  }
+  .acc-desc {
+    h6 {
+      margin-left: 0px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+
+// icons blocks
+.flex-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  .fa-solid {
+    color: #333;
+    font-size: 60px;
+    margin-right: 7%;
+  }
+}
+
+// accommodation equipements blocks
+.equipement-1, .equipement-2, .equipement-3, .equipement-4, .equipement-5, .equipement-6, .equipement-7{
+  border: 0.8px solid rgb(193, 193, 193);
+  padding: 10px;
+  border-radius: 0.6rem;
+  margin-right: 20px;
+}
+
+.equipement-item {
+  height: 95px;
+  width: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.equipement-item p {
+  margin-top: 17px;
+  font-size: smaller;
+  font-weight: bolder;
+  color: rgb(57, 57, 57);
+}
+
+// accommodation user blocks
+.user-1, .user-2, .user-3{
+  border: 0.8px solid rgb(193, 193, 193);
+  padding: 10px;
+  border-radius: 0.6rem;
+  margin-right: 20px;
+}
+
+.flex-container .user-item {
+  height: 95px;
+  width: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+
+.flex-container .user-item p {
+  margin-top: 17px;
+  font-size: smaller;
+  font-weight: bolder;
+  color: rgb(57, 57, 57);
+}
+
+.flex-photo-user-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.flex-photo-user-name h5 {
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 5%;
+  margin-right: 2%;
+}
+
+.container-pp-details-block3,
+  .container-pp-details-block2{
+  padding-left: 1%;
+}
+
+.container-pp-details-block3{
+  margin-left: 1%;
+}
+
+.container-pp-details-block1{
+  margin-right: 6%;
+}
+
+.container-pp .separator {
+  border-top: 1px solid #c8c8c8;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 1%;
+}
+
+// reviews
+
+.photo-user-review{
+  margin-right: 10px;
+}
+
+.flex-pp-details-booking{
+  display: flex;
+  align-items: flex-start
+}
+
+.flex-container-review{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-top: 2.6%;
+  margin-left: 2%;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  padding-top: 5%;
+}
+
+.container-booking-block2{
+  border: 0.8px solid #bababa;
+  background-color: white;
+  border-radius: 0.6rem;
+  padding: 8%;
+  width: 380px;
+  height: 40%;
+  box-shadow: 0 0 30px 2px #d0d0d0;
+
+  h5{
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  .comment {
+    font-size: small;
+  }
+  .main-infos-reviews{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    h6 {
+      margin: 0%;
+      font-weight: bolder;
+      color: #838383;
+    }
+    p {
+      font-weight: lighter;
+      font-size: smaller;
+    }
+  }
+}
+
+
+
+.offer-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add some spacing below the container */
+}
+
+
+.offer-button{
+  border: 0.8px solid #b6b6b6;
+border-radius: 0.6rem;
+padding: 15px;
+padding-left: 110px;
+padding-right: 110px;
+background-color: #C14214;
+box-shadow: 0 0 30px 2px #d0d0d0;
+}
+
+.offer-button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.offer-button input[type="submit"]{
+  background: transparent;
+  color: white;
+}
+
+.container-pp{
+    a{
+    text-decoration: none;
+    opacity: 0.8;
+  }
+    a:hover{
+      text-decoration: none;
+      color: #060606;
+      }
+}
+#edit{
+  margin-left: 84%;
+}
+
+
+.avatar-map {
+  border: 0px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.avatar-map:hover {
+  color: black;
+  transition: 0.2s;
+  transform: scale3d(1.025, 1.025, 1)
+}
+
+// .accommodation-form.review-main{
+//   padding: 4%;
+// }
+
+// .modal-dialog.modal-lg {
+//   max-width: 60%; /* Adjust the value as per your preference */
+// }
+
+// .modal-content {
+//   width: 90%; /* Adjust the value as per your preference */
+//   height: auto; /* Adjust the value as per your preference */
+//   border-radius: 0.6rem;
+// }
+
+.flex-buddies-info-main-infos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-exchange-second-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-exchange-first-block{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center
+}
+
+.image-clickable.main-infos{
+  border-radius: 0.6rem;
+}
+
+.flex-valid-exchange-main-infos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 7%;
+  margin-left: 7%;
+}
+
+.flex-valid-exchange-secondary-infos.my{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  padding-left: 2%;
+  margin-top: 3%;
+  padding-right: 20px;
+}
+
+.flex-valid-exchange-secondary-infos.him{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  padding-left: 2%;
+  margin-top: 3%;
+  padding-right: 20px;
+}
+
+.main-infos-block1{
+    background-color: white;
+  border-radius: 0.6rem;
+  // padding-bottom: 40px;
+  // margin-bottom: 15px;
+  height: 325px;
+  width: 600px;
+  padding: 1%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+    border: 0.8px solid #bababa;
+    background-color: white;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 30px 2px #d0d0d0;
+    // margin-top: 20px;
+    // margin-left: 20px;
+    // margin-right: 10px;
+    margin-left: 2%;
+    h5{
+      padding-left: 6%;
+    }
+}
+
+.flex-me{
+  background-color: white;
+  border-radius: 0.6rem;
+  height: auto;
+  width: 620px;
+  border: 0.8px solid #bababa;
+  background-color: white;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 30px 2px #d0d0d0;
+  margin-top: 2%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 5%;
+  transition: 0.4s;
+margin-bottom: 1%;
+padding-bottom: 5%;
+padding-right: 5%;
+padding-left: 5%;
+
+}
+
+.flex-him{
+  background-color: white;
+  border-radius: 0.6rem;
+  height: auto;
+  width: 620px;
+  border: 0.8px solid #bababa;
+  background-color: white;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 30px 2px #d0d0d0;
+  margin-top: 2%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 5%;
+  transition: 0.4s;
+  padding-bottom: 5%;
+  padding-right: 5%;
+padding-left: 5%;
+
+}
+
+.flex-picture-buddy-valid{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar.mr-3.msg.valid{
+  height: 60px;
+  width: 60px;
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+
+.flex-secondary-infos-valid{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2%;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 2%;
+}
+
+.acco-details-valid-final{
+  background-color: white;
+  border-radius: 0.6rem;
+  // padding-bottom: 40px;
+  // margin-bottom: 15px;
+  height: 659px;
+  width: 600px;
+    border: 0.8px solid #bababa;
+    background-color: white;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 30px 2px #d0d0d0;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 10%;
+    transition: 0.4s;
+    margin-top: 2%;
+
+    h5{
+      margin-bottom: 5%;
+    }
+}
+
+.all-final h3{
+  margin-top: 5%;
+  margin-left: 3%;
+  font-weight: bolder;
+}
+
+.all-final h6{
+  font-weight: 400;
+}
+.all-final i{
+  font-size: 18px;
+  color: #C14214;
+}
+
+// .main-infos-block1{
+//     transition: 0.4s;
+//   }
+
+// .main-infos-block1:hover{
+//   transition: 0.4s;
+//   height: 270px;
+//   width: 580px;
+// }
+// .flex-me:hover{
+//   height: 315px;
+//   width: 830px;
+//   transition: 0.4s;
+// }
+
+// .flex-him:hover{
+//   height: 315px;
+//   width: 830px;
+//   transition: 0.4s;
+
+// }
+
+// .acco-details-valid-final:hover{
+//   height: 650px;
+//   width: 810px;
+//   transition: 0.4s;
+// }
+
+.acco-details-valid-final p{
+border-left: 5px solid  rgba(0, 0, 0, 0.213);
+padding-bottom: 1%;
+padding-top: 1%;
+margin-bottom: 0px !important;
+padding-left: 4%;
+}
+
+.highlight-valid{
+  margin-bottom: 6%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.highlight-valid:hover{
+  background-color: #f4f4f4;
+}
+
+.valid-block{
+  border-left: 5px solid  rgba(0, 0, 0, 0.213);
+padding-left: 4%;
+padding-top: 2%;
+height: auto;
+padding-bottom: 2%;
+margin-bottom: 5%;
+padding-right: 10%;
+}
+
+.valid-block:hover{
+  background-color: #f4f4f4;
+}
+
+.flex-secondary-infos-valid{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-all-infos-valid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.flex-main-validate{
+  display: flex;
+  flex-direction: column;
+}
+
+.acco-details-valid-final h5{
+  margin-bottom: 7%;
+  margin-top: 5%;
+}
+
+.valid-exchange-secondary-infos.my{
+  padding-left: 5%;
+
+}
+
+.valid-exchange-secondary-infos.him{
+  padding-left: 10%;
+}
+
+.flex-buddies-info-main-infos h4{
+  margin-right: 57%;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+.flex-main-validate h4{
+  font-weight: 400;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}

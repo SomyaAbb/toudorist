@@ -1,0 +1,123 @@
+<div class="navbar-lp">
+  <%= render 'components/navbar' %>
+</div>
+
+  <div class="main-container">
+
+    <div class="div-empower-team first">
+  <h1>All countries</h1>
+    </div>
+    <div class="card-group">
+  <div class="card">
+    <%= link_to "/philippines", class: "image-link" do %>
+      <%= image_tag "philipp2.jpeg" %>
+      <div cLass="layer"></div>
+      <div class="info">
+        <h1>Philippines</h1>
+        <p>
+        From the most beautiful volcano in the world to empty beaches.
+        </p>
+        <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+  <div cLass="card">
+  <%= link_to "/vietnam", class: "image-link" do %>
+    <%= image_tag "v-2.jpeg" %>
+    <div cLass="layer"></div>
+    <div class="info">
+      <h1>Vietnam</h1>
+      <p>
+      Between rice fields to theme park.
+      </p>
+      <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+    <div cLass="card">
+    <%= link_to "/indonesia", class: "image-link" do %>
+      <%= image_tag "indonesie3.jpeg" %>
+    <div cLass="layer"></div>
+    <div class="info">
+      <h1>Indonesia</h1>
+      <p>
+      Through local wedding to instagrammable beaches.
+      </p>
+      <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+</div>
+    <div class="card-group">
+  <div class="card">
+    <%= link_to "/cambodia", class: "image-link" do %>
+      <%= image_tag "Cambodge1.jpeg" %>
+      <div cLass="layer"></div>
+      <div class="info">
+        <h1>Cambodia</h1>
+        <p>
+        From the most beautiful volcano in the world to empty beaches.
+        </p>
+        <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+  <div cLass="card">
+  <%= link_to "/thailand", class: "image-link" do %>
+    <%= image_tag "thailande5.jpeg" %>
+    <div cLass="layer"></div>
+    <div class="info">
+      <h1>Thailand</h1>
+      <p>
+      Between rice fields to theme park.
+      </p>
+      <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+    <div cLass="card">
+    <%= link_to "/malaysia", class: "image-link" do %>
+      <%= image_tag "malaysia1.jpeg" %>
+    <div cLass="layer"></div>
+    <div class="info">
+      <h1>Malaysia</h1>
+      <p>
+      Through local wedding to instagrammable beaches.
+      </p>
+      <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="card-group">
+  <div class="card last">
+  <%= link_to "/japan", class: "image-link" do %>
+      <%= image_tag "fujisan.jpeg" %>
+    <div cLass="layer"></div>
+    <div class="info">
+      <h1>Japan</h1>
+      <p>
+      From Shibuya crossing to Fuji-san.
+      </p>
+      <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+  <div cLass="card last">
+  <%= link_to "/southkorea", class: "image-link" do %>
+      <%= image_tag "korea1.jpeg" %>
+    <div cLass="layer"></div>
+    <div class="info">
+      <h1>South Korea</h1>
+      <p>
+      Beyond k-ppop and k-drama!
+      </p>
+      <button>Discover</button>
+      <% end %>
+    </div>
+  </div>
+  </div>
+</div>
+
+<%= render 'components/footer' %>
