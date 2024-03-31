@@ -1,103 +1,1013 @@
-<%= render 'components/navbar' %>
+ <%= render 'components/navbar' %>
+<div class="all">
+<%# <div class="banner-hp">
+        <div class="banner cambia" style="background-image: url('/assets/banner-p.jpeg');">
+          <div class="container">
+            <h1><strong>Philippines</strong></h1>
+            <p>The hidden treasures of Cambodia, where history and adventure collide.</p>
+          </div>
+        </div>
+      </div> %>
 
-<div class="wrapper">
-  <div class="main-container">
-  <div class="div-empower-team last">
-  <h1>Coming soon</h1>
-  </div>
-  </div>
 
+<%# HP PANNER %>
+<div class="flex-bann-landing">
+  <div class="banner lp" style="background-image: url('https://res.cloudinary.com/dbir145pd/image/upload/v1711826449/main-j-3_vwunjt.jpg')";>
+    <div class="home-titles">
+      <h1>
+        Japan
+      </h1>
+      <%# <h2>Experience a new way to share and exchange within your company for free !</h2> %>
 
-  <div class="main-container">
-
-    <div class="div-empower-team first">
-  <h1>Discover other destinations</h1>
+<div class="navbar navbar-expand-sm navbar-light navbar-toudorist lp">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+      <li class="nav-item active">
+    <button class="btn-1" onclick="window.location.href='#myitinerary';">
+      <p><%= link_to "Recommended itinerary", "#" %></p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="4"
+      >
+      </svg>
+    </button>
+    </li>
+    <li class="nav-item active">
+    <button class="btn-2" onclick="window.location.href='#todo';">
+      <p><%= link_to "Your to-do", "#" %></p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="4"
+      >
+      </svg>
+    </button>
+    </li>
+    <li class="nav-item active">
+    <button class="btn-3" onclick="window.location.href='#tips';">
+    <p><%= link_to "Time for tips", "#" %></p>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="4"
+    >
+    </svg>
+    </button>
+          </li>
+          <li class="nav-item active">
+                    <button class="btn-4" onclick="window.location.href='#explore';">
+    <p><%= link_to "More to explore", "#" %></p>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="4"
+    >
+    </svg>
+    </button>
+    <li class="nav-item active">
+                    <button class="btn-5" onclick="window.location.href='#tiktok';">
+    <p><%= link_to "More on Tiktok", "#" %></p>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="4"
+    >
+    </svg>
+    </button>
     </div>
-    <div class="card-group">
-  <div class="card">
-    <%= link_to "/philippines", class: "image-link" do %>
-      <%= image_tag "philipp2.jpeg" %>
-      <div cLass="layer"></div>
-      <div class="info">
-        <h1>Philippines</h1>
-        <p>
-        From the most beautiful volcano in the world to empty beaches.
+  </div>
+</div>
+  </div>
+</div>
+
+<%# <div class="travel-itinerary">
+  <div class="itinerary-block a">
+  <h6><a href="#step0">Recommended Itinerary</a></h6>
+  </div>
+  <div class="itinerary-block b">
+  <h6><a href="#step1">Your To-Do</a></h6>
+  </div>
+  <div class="itinerary-block d">
+  <h6><a href="#step3">Time for Tips</a></h6>
+  </div>
+  <div class="itinerary-block e">
+  <h6><a href="#step4">More to Explore</a></h6>
+  </div>
+  <div class="itinerary-block e">
+  <h6><a href="#step5">More on Tiktok</a></h6>
+  </div>
+</div> %>
+
+
+<div class="myitinerary-block main japan" id="myitinerary">
+    <div class="flex hiw2 block2 e">
+        <h1 class="title-timefortips">Recommended
+            <button>
+                Itinerary
+                <div class="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </button>
+        </h1>
+        <div class="flex-itinerary-blocks">
+            <div class="steps-itinerary-first">
+                <div class="step a">
+                    <h6>1 Tokyo Prefecture</h6>
+                    <p> 7 days</p>
+                </div>
+                <div class="step b">
+                    <h6>2 Nagano Prefecture</h6>
+                    <p> 7 days</p>
+                </div>
+                <div class="step c">
+                    <h6>3 Fuji-Kawaguchiko</h6>
+                    <p> 2 days</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-itinerary-img">
+        <%= image_tag "j-12.jpeg", height:500 , width: 350, class: "hiw3"%>
+    </div>
+</div>
+
+<div class="container-todo main" id="todo">
+  <div class="to-do-list-container">
+      <%# <h6 class="subtitle-to-do">7 places</h6> %>
+      <h1 class="title-yourtodo">Tokyo
+          <button>
+              To-Do
+              <div class="star-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+          </button>
+      </h1>
+  </div>
+
+
+  <div class="container overflow">
+    <div class="todo-scroll">
+      <div class="flex-center-blocks-hiw" id="step0">
+        <%= image_tag "j-2.jpeg", height:500 , width: 350, class: "hiw3"%>
+
+        <div class="flex-todo">
+          <h1>Ueno</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="1" name="r" type="checkbox" id="01">
+              <label for="01">Visit Ueno Park and its Sakura trees</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Visit the Imperial Palace</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Discover art collection in the Tokyo National Museum</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+      <div class="flex-center-blocks-hiw" id="step1">
+        <%= image_tag "j-3.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="fake-div"></div>
+        <div class="flex-todo b">
+          <h1>Asakusa</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="3" name="r" type="checkbox" id="03">
+              <label for="03">Go shopping at Don Quijote 24H</label>
+              <input value="4" name="r" type="checkbox" id="04">
+              <label for="04">Visit the oldest temple in Tokyo, Senso-ji temple</label>
+              <input value="5" name="r" type="checkbox" id="05">
+              <label for="05">Visit, shop, and have a coffee in the Tokyo Skytree</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+
+      <div class="flex-center-blocks-hiw" id="step3">
+        <%= image_tag "j-4.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="flex-todo">
+          <h1>Roppongi</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="9" name="r" type="checkbox" id="15">
+              <label for="09">Have a night ride around Roppongi streets.</label>
+              <input value="10" name="r" type="checkbox" id="16">
+              <label for="10">Visit the Art National museum</label>
+              <input value="11" name="r" type="checkbox" id="17">
+              <label for="11">Visit the famous and majestic Tokyo Tower.</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+      <div class="flex-center-blocks-hiw" id="step4">
+        <%= image_tag "j-5.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="flex-todo b">
+          <h1>Akihabara</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="1" name="r" type="checkbox" id="20">
+              <label for="01">Fill up your belly at Nikoniko Mazemen</label>
+              <input value="2" name="r" type="checkbox" id="21">
+              <label for="02">Enjoy the folkloric Furakucho streets</label>
+              <input value="3" name="r" type="checkbox" id="22">
+              <label for="03">Have fun with arcade games and shop Otaku products</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+      <div class="flex-center-blocks-hiw" id="step5">
+        <%= image_tag "j-6.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="flex-todo">
+          <h1>Shibuya</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="23" name="r" type="checkbox" id="23">
+              <label for="23">Visit Shibuya for its famous crossing and vibrant life.</label>
+              <input value="24" name="r" type="checkbox" id="24">
+              <label for="24">Experience shopping at Shibuya 109</label>
+              <input value="25" name="r" type="checkbox" id="25">
+              <label for="25">Experience shopping at Don Quijote</label>
+              <input value="26" name="r" type="checkbox" id="26">
+              <label for="26">Have the best soba at Sagatani Shibuya Dogenzaka!</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+      <div class="flex-center-blocks-hiw" id="step4">
+        <%= image_tag "j-7.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="flex-todo b">
+          <h1>Harajuku & <br>Shinjuku</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="1" name="r" type="checkbox" id="20">
+              <label for="01">Take a walk in Shinjuku Golden Gai</label>
+              <input value="1" name="r" type="checkbox" id="20">
+              <label for="01">See the famous Gozilla and cat giant screen in Shinjuku</label>
+              <input value="2" name="r" type="checkbox" id="21">
+              <label for="02">Take a walk at Takeshita Street in Harajuku.</label>
+              <input value="3" name="r" type="checkbox" id="22">
+              <label for="03">Visit the peaceful and refreshing Yoyogi park at Harajuku.</label>
+              <input value="3" name="r" type="checkbox" id="22">
+              <label for="03">Explore and leap in the past at the Meiji-jingu Sanctuary</label>
+              <input value="3" name="r" type="checkbox" id="22">
+              <label for="03">Have the best sushi experience at Kidoguchi, Minato.</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+
+      <div class="flex-center-blocks-hiw last" id="step5">
+        <%= image_tag "j-8.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="flex-todo">
+          <h1>Odaiba</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="23" name="r" type="checkbox" id="23">
+              <label for="23">Shopping in DiverCity Tokyo Plaza</label>
+              <input value="24" name="r" type="checkbox" id="24">
+              <label for="24">Shopping in Aqua City Odaiba</label>
+              <input value="25" name="r" type="checkbox" id="25">
+              <label for="25">Have fun at Tokyo Joypolis</label>
+              <input value="25" name="r" type="checkbox" id="25">
+              <label for="25">Take a walk around the Unicorn Gundam Statue</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-todo main" id="todo">
+  <div class="to-do-list-container">
+      <%# <h6 class="subtitle-to-do">7 places</h6> %>
+      <h1 class="title-yourtodo">Nagano
+          <button>
+              To-Do
+              <div class="star-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+          </button>
+      </h1>
+  </div>
+</div>
+
+
+  <div class="container overflow">
+    <div class="todo-scroll">
+      <div class="flex-center-blocks-hiw" id="step0">
+        <%= image_tag "j-9.jpeg", height:500 , width: 350, class: "hiw3"%>
+
+        <div class="flex-todo">
+          <h1>Nagano</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="1" name="r" type="checkbox" id="01">
+              <label for="01">Take a walk at Joyama Park.</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Visit the Zenko-ji Temple.</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Get lost at the Sando (the Approach).</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Eat Jomon Oyakis at Ogawa-no-sho Daimon restaurant.</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Go see the snow monkeys at Jigokudani Monkey Park</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Visit the Togakushi-jinja sanctuary</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Spend the day at the Hakuba ski station</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+      <div class="flex-center-blocks-hiw" id="step1">
+        <%= image_tag "j-10.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="fake-div"></div>
+        <div class="flex-todo b">
+          <h1>Matsumoto</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="3" name="r" type="checkbox" id="03">
+              <label for="03">Visit the amazing Matsumoto Temple</label>
+              <input value="4" name="r" type="checkbox" id="04">
+              <label for="04">Have a sweet break at the Hangout Cafe Matsumoto</label>
+              <input value="5" name="r" type="checkbox" id="05">
+              <label for="05">Visit Narai-juku, Tsumago-juku and Magome-juku villages. </label>
+              <input value="5" name="r" type="checkbox" id="05">
+              <label for="05">Relax in the natural hot springs of Hirayu Onsen</label>
+              <input value="5" name="r" type="checkbox" id="05">
+              <label for="05">Go shopping at the Aeon mall Matsumoto</label>
+              <input value="5" name="r" type="checkbox" id="05">
+              <label for="05">Book a tour to Chubu-Sangaku National Park</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+
+
+      <div class="flex-center-blocks-hiw last" id="step3">
+        <%= image_tag "j-11.jpeg", height:500 , width: 350, class: "hiw3"%>
+        <div class="flex-todo">
+          <h1>Takayama</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="9" name="r" type="checkbox" id="15">
+              <label for="09">Enjoy the Takayama market.</label>
+              <input value="10" name="r" type="checkbox" id="16">
+              <label for="10">Roam around Takayama old city, Sanmachi-suji.</label>
+              <input value="11" name="r" type="checkbox" id="17">
+              <label for="11">Taste local specialities, the Hida-gyu and Hoba miso!</label>
+              <input value="11" name="r" type="checkbox" id="17">
+              <label for="11">Book a tour to Shirakawa-Go village.</label>
+              <input value="11" name="r" type="checkbox" id="17">
+              <label for="11">Visit the Japanese traditional village, Hida-no-sato.</label>
+              <input value="11" name="r" type="checkbox" id="17">
+              <label for="11">Explore the Sakurayama Hachimangu sanctuary.</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-todo main" id="todo">
+  <div class="to-do-list-container">
+      <%# <h6 class="subtitle-to-do">7 places</h6> %>
+      <h1 class="title-yourtodo">Fuji
+          <button>
+              To-Do
+              <div class="star-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+              <div class="star-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs></defs>
+                      <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                      </g>
+                  </svg>
+              </div>
+          </button>
+      </h1>
+  </div>
+</div>
+
+
+  <div class="container overflow fuji">
+    <div class="todo-scroll">
+      <div class="flex-center-blocks-hiw" id="step0">
+        <%= image_tag "j-1.jpeg", height:500 , width: 350, class: "hiw3"%>
+
+        <div class="flex-todo">
+          <h1>Kawaguchiko</h1>
+          <div class="step1-hiw-block">
+            <div id="checklist">
+              <input value="1" name="r" type="checkbox" id="01">
+              <label for="01">Walk and bike tour around Kawaguchiko Lake.</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Enjoy mt Fuji view from Ohashi Bridge</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Enjoy mt Fuji view from Yagisaki Park</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Enjoy mt Fuji view from Oishi Park</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Visit the Itchiku Kubota art museum</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Climb the 398 steps of the Chureito Pagoda</label>
+              <input value="2" name="r" type="checkbox" id="02">
+              <label for="02">Enjoy the view at the Lawson Kawaguchiko station</label>
+            </div>
+          </div>
+        </div>
+        <div class="icon-logo">
+          <%= image_tag "icon-logo.png", height: 80, width: 80, crop: :fill %>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<div class="tips" id="tips">
+<div class="flex hiw2 block2 main tips">
+    <h1 class="title-timefortips">Time for
+        <button>
+            Tips
+            <div class="star-1">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-2">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-4">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-5">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-6">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                    </g>
+                </svg>
+            </div>
+        </button>
+    </h1>
+
+
+
+<p> - Get a e-SIM with Nomad app<br>
+    - Ask your international driving license directly online and print it in a 7eleven<br>
+    - Transport in Tokyo : Subways (buy a 3days pass at a subway station or online) <br>
+    - Transport from Tokyo to Nagano: cheaper way bus (around 5h), faster JR train (1h) <br>
+    - Transport in Nagano: Rent a car at Budget nagano (Please refer to Japanese Automobile Federation regimentations) <br>
+    - Transport from Tokyo to Kawaguchiko: Bus (around 2h) <br>
+    - Transport in Kawaguchiko: Rent a bike and a car at Budget Kawaguchiko next to Kawaguchiko station (Please refer to Japanese Automobile Federation regimentations)
+</p>
+<div class="destructured-img-hiw">
+    <%= image_tag "j-13.jpeg", height:500 , width: 350, class: "hiw3"%>
+    <%= image_tag "j-14.jpeg", height:500 , width: 350, class: "hiw1"%>
+    <%= image_tag "j-16.jpeg", height:500 , width: 350, class: "hiw4"%>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="more-to-explore-block main" id="explore">
+    <div class="flex hiw2 block2 b">
+        <h1 class="title-moretoexplore">More to
+            <button>
+                Explore
+                <div class="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+<path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </button>
+        </h1>
+        <p>If you have more time, I recommend you to explore: <br>
+            - Kyoto (Explore historic temples, tea gardens, and traditional streets). <br>
+            - Osaka (Enjoy vibrant cuisine, visit Osaka Castle, and explore Dotonbori). <br>
+            - Hiroshima and Miyajima (Visit the Peace Memorial Park and the iconic floating Torii gate). <br>
+            - Nara (Encounter sacred deer, see the Great Buddha at Todai-ji, and visit historic temples. <br>
+            - Hokkaido (Discover natural landscapes, ski resorts, hot springs, and local cuisine). <br>
+            - Fukuoka (Explore Kyushu culture, visit Dazaifu Tenmangu Shrine, and enjoy city attractions). <br>
+            - Okinawa (Relax on white sandy beaches, explore WWII sites, and indulge in unique Ryukyu culture).
         </p>
-        <button>Discover</button>
-      <% end %>
     </div>
-  </div>
-  <div cLass="card">
-  <%= link_to "/vietnam", class: "image-link" do %>
-    <%= image_tag "v-2.jpeg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Vietnam</h1>
-      <p>
-      Between rice fields to theme park.
-      </p>
-      <button>Discover</button>
-      <% end %>
+    <div class="flex-img-hiw">
+        <%= image_tag "j-15.jpeg", height:500 , width: 350, class: "hiw3" %>
     </div>
-  </div>
-    <div cLass="card">
-    <%= link_to "/indonesia", class: "image-link" do %>
-      <%= image_tag "i-10.jpeg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Indonesia</h1>
-      <p>
-      Through local wedding to instagrammable beaches.
-      </p>
-      <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-</div>
-<div class="card-group">
-  <div class="card">
-    <%= link_to "/cambodia", class: "image-link" do %>
-      <%= image_tag "c-16.jpeg" %>
-      <div cLass="layer"></div>
-      <div class="info">
-        <h1>Cambodia</h1>
-        <p>
-        From the most beautiful volcano in the world to empty beaches.
-        </p>
-        <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-  <div cLass="card">
-  <%= link_to "/thailand", class: "image-link" do %>
-    <%= image_tag "thailande5.jpeg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Thailand</h1>
-      <p>
-      Between rice fields to theme park.
-      </p>
-      <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-    <div cLass="card">
-    <%= link_to "/japan", class: "image-link" do %>
-      <%= image_tag "fujisan.jpeg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Japan</h1>
-      <p>
-      Through local wedding to instagrammable beaches.
-      </p>
-      <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-</div>
 </div>
 
+
+
+<div class="check-out-block main" id="tiktok">
+    <div class="flex hiw2 block2 c">
+        <h1>More on
+            <button>
+                Tiktok
+                <div class="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path class="fil0" d="M392.05 0c-200.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </button>
+
+            <div class="section-inner">
+                <div class="cases-slider embla js-embla-slider aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
+
+                    <div class="embla__container cursor-slider cursor-blue"  >
+
+
+                        <div class="embla__slide">
+                            <a href="https://www.tiktok.com/@somymym/video/7333865974262664481" class="cases-box">
+                                <div class="cases-box__bg">
+                                    <picture>
+                                        <%= image_tag "fond.jpeg" %>
+                                    </picture>
+                                </div>
+                                <div class="cases-box__title"><h6>Tokyo through my eyes</h6></div>
+                                <div class="cases-box__text"><p>Cinematic videos from Tokyo!</p></div>
+                                <div class="cases-box__img">
+                                    <%= video_tag "https://res.cloudinary.com/dbir145pd/video/upload/v1711879741/Design_sans_titre_23_mseuay.mp4", autoplay: true, muted: true, loop: true, playsinline: true %>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="https://www.tiktok.com/@somymym/video/7333570789624646944" class="cases-box">
+                                <div class="cases-box__bg">
+                                    <picture>
+                                        <%= image_tag "fond-3.jpeg" %>
+                                    </picture>
+                                </div>
+                                <div class="cases-box__title"><h6>Nagano <br> Prefecture</h6></div>
+                                <div class="cases-box__text"><p>The beauty of Japan during winter.</p></div>
+                                <div class="cases-box__img">
+                                    <%= video_tag "https://res.cloudinary.com/dbir145pd/video/upload/v1711879772/Design_sans_titre_24_xlcssa.mp4", autoplay: true, muted: true, loop: true, playsinline: true %>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="https://www.tiktok.com/@somymym/video/7330558888762281248" class="cases-box">
+                                <div class="cases-box__bg">
+                                    <picture>
+                                        <%= image_tag "fond-2.jpeg" %>
+                                    </picture>
+                                </div>
+                                <div class="cases-box__title"><h6>Shibuya, <br>Tokyo</h6></div>
+                                <div class="cases-box__text"><p>The next station is Shibuya!</p></div>
+                                <div class="cases-box__img">
+                                    <%= video_tag "https://res.cloudinary.com/dbir145pd/video/upload/v1711879859/Design_sans_titre_25_ai7rp8.mp4", autoplay: true, muted: true, loop: true, playsinline: true %>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </h1>
+    </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%# <div class="embla__buttons">
+                        <button class="embla__button embla__button--prev" type="button">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+</button>
+<button class="embla__button embla__button--next" type="button">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+</button>
+                    </div> %>
+
+<%#
+<div class="flex-center-blocks-hiw" id="step3">
+<%= image_tag "philipp1.jpeg", height:500 , width: 350, class: "hiw3"%>
+<%# <div class="flex-todo"> %>
+    <%# <h1>Itinerary reco</h1> %>
+    <%# <div class="step2-hiw-block"> %>
+        <%# <div class="good-t-k"> %>
+          <%# <p>- 4 days in Siem Reap %>
+          <%# <br> %>
+          <%# - 3 days in Phnom penh<br> %>
+          <%# - 3 days in Koh Rong </p> %>
+        <%# </div> %>
+        <%# </div> %>
+<%# </div> %>
+  <%# </div> %>
+<%# </div> %>
+
+</div>
 
 <%= render 'components/footer' %>

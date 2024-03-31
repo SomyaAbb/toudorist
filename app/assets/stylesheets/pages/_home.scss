@@ -4,6 +4,10 @@ body {
   background-color: #f8f8f8 !important;
 }
 
+.hiden-on-web{
+  display: none;
+}
+
 
 // article
 .flex-article {
@@ -531,6 +535,11 @@ border-radius: 2.6rem;
 
 
 
+
+
+
+
+
 // Media query pour les téléphones
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .banner h1 {
@@ -724,6 +733,24 @@ margin-right: 0% !important;
 
 .eyt-block {
   height: none;
+}
+
+.main-container.all-countries{
+  .div-empower-team.first, .div-empower-team.last{
+    padding-top: 15%;
+  }
+}
+
+.hiden-on-web{
+  display: block !important;
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-group{
+  padding-bottom: 0% !important;
 }
 
 .eyt-text-a {
@@ -948,7 +975,6 @@ margin-right: 0% !important;
 }
 
 .roadtrip{
-  margin-left: -5%;
   margin-bottom: 1% !important;
 }
 
@@ -1016,7 +1042,7 @@ margin-right: 0% !important;
   height: 130px !important;
 }
 
- .banner-image, .eyt-block.c, .eyt-block.e.img, .flex-rea-block{
+ .banner-image{
   display: none;
 }
 
@@ -1030,12 +1056,268 @@ margin-right: 0% !important;
   background-color: white;
 }
 
+.flex.div-3blocks{
+  flex-direction: column !important;
+  align-items: center !important;
+  .eyt-block.a{
+    margin-right: 0% !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 24px !important;
+  }
+  .eyt-block.b{
+    width: 100% !important;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+    height: auto !important;
+    padding: 24px !important;
+  }
+  .eyt-block.c{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 7% !important;
+    padding: 24px !important;
+  }
+}
+
+.eyt-block.c .eyt-text-b {
+  font-size: 8.2vw !important;
+  /* font-style: italic; */
+  margin-top: 7% !important;
+}
+
+.eyt-block.b .eyt-text-b {
+  font-size: 8.2vw !important;
+  /* font-style: italic; */
+  margin-top: 7% !important;
+}
+
+.div-empower-team h1{
+  margin-left: 0% !important;
+  margin-bottom: 10%
+}
+
+.eyt-block.a .eyt-text-b {
+  font-size: 8.2vw !important;
+  /* font-style: italic; */
+  margin-top: 7% !important;
+}
+
+.flex.div-2blocks{
+  flex-direction: column !important;
+  margin-left: 0% !important;
+  height: auto !important;
+  img{
+    width: auto;
+    height: 141%;
+  }
+  .eyt-block.d{
+    width: 92% !important;
+    height: auto !important;
+    margin-bottom: 10% !important;
+    padding: 24px !important;
+  }
+}
+
+.btn-article.w-margin.last {
+  margin-bottom: 8% !important;
+  margin-top: 29% !important;
+}
+
+.collection-block-hp {
+  padding-top: 3% !important;
+}
+
+.card-group{
+  margin: 0% !important;
+  width: 91% !important;
+  height: 160px !important;
+}
+
+.card-group.hp.last{
+  margin-left: 5% !important;
+}
+
+.flex-rea-block{
+  display: none;
+}
+
+.btn-article.w-margin {
+  margin-bottom: 18% !important;
+  margin-top: 0% !important;
+}
+
+.main-container-lp, .main-container {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
 .navbar{
   width: 100%;
 }
 
+.card {
+  border-radius: 24px !important;
+  img{
+    border-radius: 24px !important;
+  }
+}
+
 // LP
 
+.flex-about-page {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0% !important;
+  p{
+    text-align: center !important;
+  }
+}
+
+.wrapper.about{
+  .div-empower-team.last {
+    margin-bottom: 10% !important;
+}
+  img{
+    border-radius: 20px !important;
+  }
+  .div-empower-team.last{
+    margin-left: 0% !important;
+  }
+  p{
+    padding: 2%;
+    text-align: center;
+    font-weight: lighter;
+  }
+  .div-empower-team.last {
+    margin-top: 14% !important;
+    width: 100% !important;
+}
+.div-empower-team.last h1{
+  margin-left: 0% !important;
+  text-align: center !important;
+}
+}
+
+.roadtrip.about{
+  background-color: #f8f8f8;
+  margin-top: 0% !important;
+  .eyt-block{
+    background-color: #F3F3F3 !important;
+  }
+  .btn-article.w-margin {
+    margin-top: 30% !important;
+}
+}
+
+.wrapper.about{
+  .main-container {
+    background-color: white !important;
+    padding-bottom: 10% !important;
+}
+  .div-empower-team.last{
+    margin-right: 0% !important;
+    width: 100%;
+    padding-top: 30% !important;
+    margin: 0% !important;
+    height: 30vh !important;
+    margin-bottom: 10% !important;
+  }
+   h1{
+    margin-left: 0% !important;
+    width: 80% !important;
+    font-size: 9.395vw !important;
+  }
+}
+
+.roadtrip-unique-page{
+  overflow-x: hidden !important;
+  a{
+    font-weight: bold;
+    color: #000;
+  }
+  .div-empower-team.roadtrip h1{
+    margin-left: 0% !important;
+    width: 80% !important;
+    font-size: 9.395vw !important;
+  }
+  .div-empower-team.last{
+    margin-right: 0% !important;
+    width: 100%;
+    padding-top: 30% !important;
+    margin: 0% !important;
+    height: 40vh !important;
+  }
+  .more-to-explore-block.b{
+    padding-left: 0% !important;
+    padding: 2% !important;
+    padding-bottom: 10% !important;
+  }
+  img{
+    width: 80% !important;
+    height: 90% !important;
+  }
+}
+
+.more-to-explore-block.b.first {
+  padding-bottom: 10% !important;
+}
+
+.more-to-explore-block.a.roadtrip {
+  padding-bottom: 10% !important;
+}
+
+.more-to-explore-block.b.roadtrip.last{
+  padding-left: 0% !important;
+  padding: 2% !important;
+  padding-bottom: 10% !important;
+  img{
+    width: 84% !important;
+    height: 90% !important;
+  }
+}
+
+.more-to-explore-block.a.roadtrip.last{
+  padding-right: 0% !important;
+  padding: 2% !important ;
+  img{
+    width: 84% !important;
+    height: 90% !important;
+  }
+}
+
+
+.card{
+  width: 79% !important;
+}
+
+.card.last.hiden{
+  display: none;
+}
+
+
+.card-group.hp.last{
+  .card{
+    height: 100% !important;
+  }
+}
+
+.card-group {
+  margin: 0% !important;
+  width: 100% !important;
+  height: 100% !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+.all a{
+  color: #000;
+  font-weight: bold;
+}
+.check-out-block{
+  margin-bottom: 6% !important;
+}
 
 .flex-logos{
    margin-right: 54% !important;
@@ -1094,10 +1376,16 @@ margin-right: 0% !important;
   height: 20vh ;
 }
 
+.flex.hiw2.block2{
+  p{
+  text-align: start !important;
+  }
+}
+
 .flex.hiw2.block2.b{
   margin-left: 0% !important;
   p{
-  text-align: center !important;
+  text-align: start !important;
   }
 }
 .title-yourtodo button{
@@ -1112,7 +1400,7 @@ margin-right: 0% !important;
   font-size: 5.395vw !important;
 }
 .container-todo.main{
-  width: 104%!important;
+  width: 100%!important;
 }
 .all{
   overflow-x: hidden;
@@ -1142,6 +1430,37 @@ margin-right: 0% !important;
 .flex-center-blocks-hiw img{
   display: none;
 }
+
+.banner-hp-imp {
+  padding-top: 9% !important;
+}
+
+.flex-logos {
+  margin-right: 0% !important;
+}
+
+.card-group.hp.last {
+  margin-bottom: 51% !important;
+}
+
+.div-empower-team.last h1 {
+  margin-bottom: 10% !important;
+  margin-left: 8% !important;
+}
+
+.div-empower-team.first h1{
+  margin-bottom: 12% !important;
+}
+
+.card-group.hp.last {
+  margin-left: 0% !important;
+}
+
+.card-group>.card {
+  margin-bottom: 2.75rem !important;
+}
+
+
 
 .container.overflow {
   overflow-x: auto !important;
@@ -1196,7 +1515,40 @@ margin-right: 0% !important;
   margin-left: 0%;
 }
 
+.navbar .container-fluid{
+  flex-wrap: inherit !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
 
+
+.flex.hiw2.block2.b, .flex.hiw2.block2 {
+  padding-top: 10% !important;
+}
+
+.destructured-img-hiw img {
+  margin-bottom: 7% !important;
+}
+
+.container-todo.main {
+  padding-top: 5% !important;
+}
+
+.flex.hiw2.block2 p, .to-do-list-container p {
+  width: 100% !important;
+  padding: 5% !important;
+}
+.flex.hiw2{
+  margin-left: 0% !important;
+  margin-right: 0% !important;
+}
+
+.myitinerary-block .flex.hiw2 {
+  text-align: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding: 5% !important;
+}
 }
 
 
@@ -1262,14 +1614,6 @@ margin-right: 0% !important;
 }
 
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -2897,7 +3241,7 @@ button {
           }
           margin-left: 0%;
           margin-top: 8%;
-          margin-bottom: 0% !important ;
+          margin-bottom: 0%;
         }
 
           .title-yourtodo{
@@ -3134,7 +3478,7 @@ img{
   padding-right: 10%;
 }
 
-.roadtrip-unique-page{
+.roadtrip-unique-page, .wrapper.about{
 .div-empower-team.last {
   margin-top: 0%;
   height: 100vh;
@@ -3151,15 +3495,15 @@ img{
 }
 }
 
-.roadtrip-unique-page{
+
+.roadtrip-unique-page, .wrapper.about{
 .div-empower-team.last{
-  width: 100%;
-  height: 100vh;
   --color: #E1E1E1;
   background-color: #F3F3F3;
   background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
       linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
   background-size: 55px 55px;
+  margin-bottom: 7%;
 }
 }
 
@@ -3180,4 +3524,95 @@ img{
   button {
     background-color: #7EB09B !important;
 }
+}
+
+.navbar a{
+  color: #737373;
+}
+
+
+
+
+
+
+
+
+
+
+
+.wrapper.about{
+  img{
+    border-radius: 20px !important;
+  }
+  .div-empower-team.last{
+    margin-left: 0% !important;
+  }
+  p{
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+    width: 70%;
+    text-align: start;
+  }
+  .div-empower-team.last {
+    width: 100% !important;
+}
+.div-empower-team.last h1{
+  margin-left: 0% !important;
+  text-align: center !important;
+}
+}
+
+
+.div-empower-team.last.roadtrip{
+  margin-bottom: 0% !important;
+}
+
+.roadtrip.about{
+  background-color: #f8f8f8;
+  margin-top: 0% !important;
+  .eyt-block{
+    background-color: #F3F3F3 !important;
+  }
+}
+
+.wrapper.about{
+  .main-container {
+    background-color: white !important;
+    padding-bottom: 10% !important;
+    transform: scale(1);
+}
+   h1{
+    margin-left: 0% !important;
+    width: 80% !important;
+    font-size: 9.395vw !important;
+  }
+.div-empower-team.last h1 {
+    padding-top: 5%;
+}
+.flex-about-page{
+  padding-top: 10%;
+  width: 80%;
+  margin-left: 9%;
+}
+}
+
+.flex-about-page{
+  display: flex;
+  align-items: center;
+  text-align: start;
+  /* width: 80%; */
+  justify-content: space-evenly;
+  p{
+    width: 40%;
+    padding: 5%;
+  }
+}
+
+.myitinerary-block.main.japan{
+  padding-left: 7%;
+}
+
+.container.overflow.fuji{
+  overflow-x: hidden;
 }
