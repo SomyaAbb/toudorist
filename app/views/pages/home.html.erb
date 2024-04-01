@@ -1,88 +1,95 @@
 <%= render 'components/navbar' %>
 
 <div class="wrapper">
-<div class="banner-hp-imp">
-  <%= render 'components/banner' %>
-</div>
-<div class="collection-block-hp">
-  <div class="main-container">
+  <div class="banner-hp-imp">
+    <%= render 'components/banner' %>
+  </div>
+  <div class="collection-block-hp">
+    <div class="main-container">
 
-    <div class="div-empower-team first">
-  <h1>Southeast Asia collection</h1>
-    </div>
-    <div class="card-group hp">
-    <h2 class="hiden-on-web">Philippines</h2>
-  <div class="card">
-    <%= link_to "/philippines", class: "image-link" do %>
-      <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826467/philipp2_fau8qq.jpg" %>
-      <div cLass="layer"></div>
-      <div class="info">
-        <h1>Philippines</h1>
-        <p>
-        From the most beautiful volcano in the world to empty beaches.
-        </p>
-        <button>Discover</button>
-      <% end %>
+      <div class="div-empower-team first">
+        <h1>Southeast Asia collection</h1>
+      </div>
+
+      <div class="card-group hp">
+        <h2 class="hiden-on-web">Philippines</h2>
+        <div class="card">
+          <%= link_to "/philippines", class: "image-link" do %>
+            <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826467/philipp2_fau8qq.jpg" %>
+            <div class="layer"></div>
+            <div class="info">
+              <h1>Philippines</h1>
+              <p>
+                From the most beautiful volcano in the world to empty beaches.
+              </p>
+              <button>Discover</button>
+            <% end %>
+            </div>
+        </div>
+
+        <h2 class="hiden-on-web">Vietnam</h2>
+        <div class="card">
+          <%= link_to "/vietnam", class: "image-link" do %>
+            <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826475/v-2_xlsyby.jpg" %>
+            <div class="layer"></div>
+            <div class="info">
+              <h1>Vietnam</h1>
+              <p>
+                Between rice fields to theme park.
+              </p>
+              <button>Discover</button>
+            <% end %>
+            </div>
+        </div>
+
+        <h2 class="hiden-on-web">Indonesia</h2>
+        <div class="card">
+          <%= link_to "/indonesia", class: "image-link" do %>
+            <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826369/i-10_bw5gpb.jpg" %>
+            <div class="layer"></div>
+            <div class="info">
+              <h1>Indonesia</h1>
+              <p>
+                Through local wedding to instagrammable beaches.
+              </p>
+              <button>Discover</button>
+            <% end %>
+            </div>
+        </div>
+      </div>
+
+      <div class="card-group hp">
+        <div class="card last hiden">
+          <%= link_to "/thailand", class: "image-link" do %>
+            <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826475/thailande5_ycltso.jpg" %>
+            <div class="layer"></div>
+            <div class="info">
+              <h1>Thailand</h1>
+              <p>
+                Meeting elephants and discovering unique temples.
+              </p>
+              <button>Discover</button>
+            <% end %>
+            </div>
+        </div>
+
+        <div class="card last hiden">
+          <%= link_to "/cambodia", class: "image-link" do %>
+            <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826363/c-16_dfv311.jpg" %>
+            <div class="layer"></div>
+            <div class="info">
+              <h1>Cambodia</h1>
+              <p>
+                From Angkor Wat to the capital.
+              </p>
+              <button>Discover</button>
+            <% end %>
+            </div>
+        </div>
+      </div>
+
     </div>
   </div>
-  <h2 class="hiden-on-web">Vietnam</h2>
-  <div cLass="card">
-  <%= link_to "/vietnam", class: "image-link" do %>
-    <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826475/v-2_xlsyby.jpg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Vietnam</h1>
-      <p>
-      Between rice fields to theme park.
-      </p>
-      <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-  <h2 class="hiden-on-web">Indonesia</h2>
-    <div cLass="card">
-    <%= link_to "/indonesia", class: "image-link" do %>
-      <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826369/i-10_bw5gpb.jpg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Indonesia</h1>
-      <p>
-      Through local wedding to instagrammable beaches.
-      </p>
-      <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-</div>
-<div class="card-group hp">
-  <div class="card last hiden">
-  <%= link_to "/thailand", class: "image-link" do %>
-      <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826475/thailande5_ycltso.jpg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Thailand</h1>
-      <p>
-      Meeting elephants and discovering unique temples.
-      </p>
-      <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-  <div cLass="card last hiden">
-  <%= link_to "/cambodia", class: "image-link" do %>
-      <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826363/c-16_dfv311.jpg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Cambodia</h1>
-      <p>
-      From Angkor Wat to the capital.
-      </p>
-      <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-  </div>
-</div>
 
   <div class="btn-article w-margin">
     <%= link_to "See more", "/southeastasia", class: "btn-article about hp" %>
@@ -101,7 +108,7 @@
       <div class="eyt-block b">
         <h3 class="eyt-text-a">Discovering</h3>
         <h3 class="eyt-text-b">10 countries</h3>
-        <h3 class="eyt-text-c">from the valleys of vietnam to the majestic volcanoes of Japan.</h3>
+        <h3 class="eyt-text-c">from the valleys of Vietnam to the majestic volcanoes of Japan.</h3>
       </div>
       <div class="eyt-block c">
         <h3 class="eyt-text-a">And more than</h3>
@@ -115,7 +122,7 @@
         <h3 class="eyt-text-b">Our to-do list of must-dos in each country.</h3>
       </div>
       <div class="eyt-block e img">
-            <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826365/eleph-1_she4io.jpg", height: 360, width: 550, crop: :cover %>
+        <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826365/eleph-1_she4io.jpg", height: 360, width: 550, crop: :cover %>
       </div>
     </div>
   </div>
@@ -124,103 +131,85 @@
   </div>
 </div>
 
-  <div class="div-empower-team last">
+<div class="div-empower-team last">
   <h1>East Asia collection</h1>
-  </div>
-    <div class="card-group hp last">
-    <h2 class="hiden-on-web">Japan</h2>
+</div>
+<div class="card-group hp last">
+  <h2 class="hiden-on-web">Japan</h2>
   <div class="card last">
-  <%= link_to "/japan", class: "image-link" do %>
+    <%= link_to "/japan", class: "image-link" do %>
       <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826366/fujisan_qcgfjx.jpg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>Japan</h1>
-      <p>
-      From Shibuya crossing to Fuji-san.
-      </p>
-      <button>Discover</button>
+      <div class="layer"></div>
+      <div class="info">
+        <h1>Japan</h1>
+        <p>
+          From Shibuya crossing to Fuji-san.
+        </p>
+        <button>Discover</button>
       <% end %>
-    </div>
-  </div>
-  <h2 class="hiden-on-web">South Korea</h2>
-  <div cLass="card last">
-  <%= link_to "/southkorea", class: "image-link" do %>
-      <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826407/korea1_yct2o3.jpg" %>
-    <div cLass="layer"></div>
-    <div class="info">
-      <h1>South Korea</h1>
-      <p>
-      Beyond k-ppop and k-drama!
-      </p>
-      <button>Discover</button>
-      <% end %>
-    </div>
-  </div>
-  </div>
-
-        <%# reassurance block %>
-          <div class="flex-rea-block">
-            <div class="flex-article-photo-title">
-              <h4>How does it works?</h4>
-            </div>
-            <div class="rea-element">
-              <div class="flex-rea-elem 1">
-                <img src="https://assets-global.website-files.com/65e83d912225d0f8fcdb5a8a/65e9702540bcfb1210126f15_Knowledge%20Base.svg" alt="Knowledge Base">
-                <h6>Choose a country</h6>
-                <p>Select a country through the southeast Asia and east Asia collection.</p>
-              </div>
-              <div class="flex-rea-elem 2" style="margin-top: 8px;">
-                <img src="https://assets-global.website-files.com/65e83d912225d0f8fcdb5a8a/65eeb5e3e2366c8ce9a52d7a_AI%20suggestion.svg" alt="Knowledge Base">
-                <h6>Read the to-do</h6>
-                <p>Take a look to our to-do and tips.</p>
-              </div>
-              <div class="flex-rea-elem 3" style="margin-top: 8px;">
-                <img src="https://assets-global.website-files.com/65e83d912225d0f8fcdb5a8a/65eec93d98fd26e574270d76_Comment-03%20(1).svg" alt="Knowledge Base">
-                <h6>Check when it's done</h6>
-                <p>When you did it, don't forget to check it!</p>
-              </div>
-            </div>
-            <div class="btn-article">
-              <%= link_to "Discover", "/index", class: "btn-article about hp" %>
-            </div>
-          </div>
-
-
-        <%# article %>
-        <div class="flex-article">
-          <div class="artcile-img">
-            <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826408/japan-me_tbj0nc.jpg", height: 570, width: 440, crop: :fill, class: "article-img" %>
-          </div>
-          <div class="article-text">
-            <div class="flex-article-photo-title">
-              <%= image_tag "Somya.jpg", height: 65, width: 65, crop: :fill, class: "avatar-hp dropdown-toggle", id: "article-user-avatar", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-              <h5><b>Somya</b> <br>
-              About us</h5>
-            </div>
-            <p> After 4.5 years working as an e-store specialist at Back Market, I decided to take a 6 months break to travel around Asia. From the marvellous valleys of Vietnam to the ancient temples of Angkor in Cambodia and the majestic Mount Fuji in Japan. I went to 9 countries from South to North Asia, and I'm sharing with you my to-do of things you definitely must do!
-            </p>
-            <div class="btn-article">
-              <%= link_to "Discover", "/about", class: "btn-article" %>
-            </div>
-          </div>
-        </div>
-
-
-     <%# <div class="banner-hp">
-        <div class="banner" style="background-image: url('/assets/banner-angkor.png');">
-          <div class="container">
-            <h1><strong>Roadtrip Organization</strong></h1>
-            <p>The best tinerary, finding flight tickets, the formalities, the best backback... 7 advices to prepare your roadtrip!</p>
-            <div class="btn-hp-end">
-              <%= link_to "Discover", "/roadtrip", class: "btn" %>
-             <%# </div>
-          </div>
-        </div>
-      </div> %>
-
       </div>
+  </div>
+
+  <h2 class="hiden-on-web">South Korea</h2>
+  <div class="card last">
+    <%= link_to "/southkorea", class: "image-link" do %>
+      <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826407/korea1_yct2o3.jpg" %>
+      <div class="layer"></div>
+      <div class="info">
+        <h1>South Korea</h1>
+        <p>
+          Beyond k-ppop and k-drama!
+        </p>
+        <button>Discover</button>
+      <% end %>
+      </div>
+  </div>
+</div>
+
+<%# reassurance block %>
+<div class="flex-rea-block">
+  <div class="flex-article-photo-title">
+    <h4>How does it works?</h4>
+  </div>
+  <div class="rea-element">
+    <div class="flex-rea-elem 1">
+      <img src="https://assets-global.website-files.com/65e83d912225d0f8fcdb5a8a/65e9702540bcfb1210126f15_Knowledge%20Base.svg" alt="Knowledge Base">
+      <h6>Choose a country</h6>
+      <p>Select a country through the southeast Asia and east Asia collection.</p>
+    </div>
+    <div class="flex-rea-elem 2" style="margin-top: 8px;">
+      <img src="https://assets-global.website-files.com/65e83d912225d0f8fcdb5a8a/65eeb5e3e2366c8ce9a52d7a_AI%20suggestion.svg" alt="Knowledge Base">
+      <h6>Read the to-do</h6>
+      <p>Take a look to our to-do and tips.</p>
+    </div>
+    <div class="flex-rea-elem 3" style="margin-top: 8px;">
+      <img src="https://assets-global.website-files.com/65e83d912225d0f8fcdb5a8a/65eec93d98fd26e574270d76_Comment-03%20(1).svg" alt="Knowledge Base">
+      <h6>Check when it's done</h6>
+      <p>When you did it, don't forget to check it!</p>
+    </div>
+  </div>
+  <div class="btn-article">
+    <%= link_to "Discover", "/index", class: "btn-article about hp" %>
+  </div>
+</div>
+
+<%# article %>
+<div class="flex-article">
+  <div class="artcile-img">
+    <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826408/japan-me_tbj0nc.jpg", height: 570, width: 440, crop: :fill, class: "article-img" %>
+  </div>
+  <div class="article-text">
+    <div class="flex-article-photo-title">
+      <%= image_tag "Somya.jpg", height: 65, width: 65, crop: :fill, class: "avatar-hp dropdown-toggle", id: "article-user-avatar", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+      <h5><b>Somya</b> <br>
+      About us</h5>
+    </div>
+    <p> After 4.5 years working as an e-store specialist at Back Market, I decided to take a 6 months break to travel around Asia. From the marvellous valleys of Vietnam to the ancient temples of Angkor in Cambodia and the majestic Mount Fuji in Japan. I went to 9 countries from South to North Asia, and I'm sharing with you my to-do of things you definitely must do!
+    </p>
+    <div class="btn-article">
+      <%= link_to "Discover", "/about", class: "btn-article" %>
     </div>
   </div>
 </div>
-</div>
+
 <%= render 'components/footer' %>

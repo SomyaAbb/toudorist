@@ -28,7 +28,7 @@ body {
   padding: 3%;
   .btn-article{
     margin-top: 6%;
-    margin-left: 7%;
+    margin-left: 6%;
   }
 }
 
@@ -1169,6 +1169,11 @@ margin-right: 0% !important;
 
 // LP
 
+.article-text .btn-article {
+  text-align: center;
+  margin-left: 0% !important;
+}
+
 
 .wrapper.about .flex-about-page {
   padding-top: 5% !important;
@@ -1457,11 +1462,11 @@ margin-right: 0% !important;
 }
 
 .flex-center-blocks-hiw.last{
-  width: 72% !important;
+  width: 90% !important;
 }
 
 .icon-logo.mobile.last{
-  left: -163px !important;
+  left: -304px !important;
 }
 
 .myitinerary-block{
@@ -3188,6 +3193,7 @@ button svg {
   display: flex;
   flex-direction: row;
   width: 90%;
+  padding-top: 4%;
   img{
     border-radius: 2.0833333333vw;
   }
@@ -3794,4 +3800,11 @@ img{
 
 .icon-logo.mobile{
   display: none;
+}
+
+.flex.hiw2.block2.tips{
+  a{
+    color: #000;
+    font-weight: bold;
+  }
 }
