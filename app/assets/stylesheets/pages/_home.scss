@@ -28,7 +28,7 @@ body {
   padding: 3%;
   .btn-article{
     margin-top: 6%;
-    margin-left: 6%;
+    margin-left: 1%;
   }
 }
 
@@ -50,10 +50,10 @@ body {
   margin-top: 3%;
   margin-bottom: 8%;
   p{
-    padding-right: 17%;
-    margin-left: 11%;
-    margin-top: 3%;
-    font-weight: lighter;
+      padding-right: 12%;
+      margin-left: 2%;
+      margin-top: 3%;
+      font-weight: lighter;
   }
 }
 
@@ -992,6 +992,12 @@ margin-right: 0% !important;
   padding-right: none;
   margin-top: 3%;
   font-weight: lighter;
+  padding-right: 8%;
+  margin-left: 0%;
+}
+
+.flex-article h2{
+  margin-left: 0% !important;
 }
 
 .btn-article a {
@@ -1169,9 +1175,31 @@ margin-right: 0% !important;
 
 // LP
 
+.nav-item{
+  padding: 3%;
+  border-bottom: 0.1px solid #bababa;
+}
+
+.navbar-collapse{
+  transition: auto;
+  height: 840px;
+}
+
+.wrapper.about{
+.div-empower-team.last h1 {
+    padding-top: 5% !important;
+}
+}
+
+.flex-img-hiw img{
+  width: 85%;
+  /* height: auto; */
+  margin-left: 8%;
+}
+
 .article-text .btn-article {
   text-align: center;
-  margin-left: 0% !important;
+  margin-left: -5% !important;
 }
 
 
@@ -3728,7 +3756,7 @@ img{
     font-size: 15px;
     line-height: 28px;
     font-weight: 300;
-    width: 50%;
+    width: 55%;
     text-align: start;
   }
   .div-empower-team.last {
@@ -3765,12 +3793,12 @@ img{
     font-size: 9.395vw !important;
   }
 .div-empower-team.last h1 {
-    padding-top: 5%;
+    padding-top: 8%;
 }
 .flex-about-page{
   padding-top: 10%;
-  width: 80%;
-  margin-left: 9%;
+  width: 100%;
+  margin-left: 0%;
 }
 }
 
@@ -3779,10 +3807,12 @@ img{
   align-items: center;
   text-align: start;
   /* width: 80%; */
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-right: 0%;
   p{
     width: 40%;
     padding: 5%;
+    padding-left: 0%;
   }
 }
 
@@ -3807,4 +3837,15 @@ img{
     color: #000;
     font-weight: bold;
   }
+}
+
+.article-text h2{
+  margin-left: 2%;
+  color: #1a1a1a;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+  text-decoration: none;
 }
