@@ -47,10 +47,10 @@ body {
 }
 
 .flex-article{
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom: 8%;
   p{
-      padding-right: 12%;
+      padding-right: 15%;
       margin-left: 2%;
       margin-top: 3%;
       font-weight: lighter;
@@ -1174,6 +1174,10 @@ margin-right: 0% !important;
 }
 
 // LP
+
+.article-text h2{
+  display: block !important;
+}
 
 .about .flex-img-hiw{
   display: none !important;
@@ -3788,7 +3792,7 @@ img{
 .wrapper.about{
   .main-container {
     background-color: white !important;
-    padding-bottom: 10% !important;
+    padding-bottom: 5% !important;
     transform: scale(1);
 }
    h1{
@@ -3800,7 +3804,7 @@ img{
     padding-top: 8%;
 }
 .flex-about-page{
-  padding-top: 10%;
+  padding-top: 5%;
   width: 100%;
   margin-left: 0%;
 }
@@ -3847,9 +3851,21 @@ img{
   margin-left: 2%;
   color: #1a1a1a;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5%;
   font-size: 24px;
   font-weight: 600;
   line-height: 120%;
   text-decoration: none;
+  display: none;
+}
+
+.flex-about-hp2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .flex-article-photo-title{
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 0%;
+}
 }

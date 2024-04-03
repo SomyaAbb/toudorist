@@ -18,9 +18,9 @@
             <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826467/philipp2_fau8qq.jpg" %>
             <div class="layer"></div>
             <div class="info">
-              <h1>Philippines</h1>
+              <h1>The Philippines</h1>
               <p>
-                From the most beautiful volcano in the world to empty beaches.
+                Asia's pearl of the orient
               </p>
               <button>Discover</button>
             <% end %>
@@ -35,7 +35,7 @@
             <div class="info">
               <h1>Vietnam</h1>
               <p>
-                Between rice fields to theme park.
+                Land of the Blue Dragon
               </p>
               <button>Discover</button>
             <% end %>
@@ -50,7 +50,7 @@
             <div class="info">
               <h1>Indonesia</h1>
               <p>
-                Through local wedding to instagrammable beaches.
+                Land of the thousand islands
               </p>
               <button>Discover</button>
             <% end %>
@@ -66,7 +66,7 @@
             <div class="info">
               <h1>Thailand</h1>
               <p>
-                Meeting elephants and discovering unique temples.
+                Land of smiles
               </p>
               <button>Discover</button>
             <% end %>
@@ -80,7 +80,7 @@
             <div class="info">
               <h1>Cambodia</h1>
               <p>
-                From Angkor Wat to the capital.
+                Kingdom of Wonder
               </p>
               <button>Discover</button>
             <% end %>
@@ -103,12 +103,12 @@
       <div class="eyt-block a">
         <h3 class="eyt-text-a">After</h3>
         <h3 class="eyt-text-b">6 months</h3>
-        <h3 class="eyt-text-c">backpacking through South to North Asia.</h3>
+        <h3 class="eyt-text-c">backpacking from the Far East to the Middle East.</h3>
       </div>
       <div class="eyt-block b">
         <h3 class="eyt-text-a">Discovering</h3>
         <h3 class="eyt-text-b">10 countries</h3>
-        <h3 class="eyt-text-c">from the valleys of Vietnam to the majestic volcanoes of Japan.</h3>
+        <h3 class="eyt-text-c">from the marvellous Ninh Binh valley to the majestic Mount Fuji.</h3>
       </div>
       <div class="eyt-block c">
         <h3 class="eyt-text-a">And more than</h3>
@@ -118,7 +118,7 @@
     </div>
     <div class="flex div-2blocks">
       <div class="eyt-block d">
-        <h3 class="eyt-text-a">I share with you</h3>
+        <h3 class="eyt-text-a">We share with you</h3>
         <h3 class="eyt-text-b">Our to-do list of must-dos in each country.</h3>
       </div>
       <div class="eyt-block e img">
@@ -143,7 +143,7 @@
       <div class="info">
         <h1>Japan</h1>
         <p>
-          From Shibuya crossing to Fuji-san.
+          Land of the rising sun
         </p>
         <button>Discover</button>
       <% end %>
@@ -158,7 +158,7 @@
       <div class="info">
         <h1>South Korea</h1>
         <p>
-          Beyond k-ppop and k-drama!
+          Land of the morning calm
         </p>
         <button>Discover</button>
       <% end %>
@@ -194,11 +194,15 @@
 </div>
 
 <%# article %>
-<div class="flex-article">
-  <div class="artcile-img">
-    <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826408/japan-me_tbj0nc.jpg", height: 570, width: 440, crop: :fill, class: "article-img" %>
+<div class="flex-about-hp2">
+  <div class="flex-article-photo-title">
+    <h4>About us</h4>
   </div>
-  <div class="article-text">
+  <div class="flex-article">
+    <div class="artcile-img">
+      <%= image_tag "https://res.cloudinary.com/dbir145pd/image/upload/v1711826408/japan-me_tbj0nc.jpg", height: 570, width: 440, crop: :fill, class: "article-img" %>
+    </div>
+    <div class="article-text">
       <h2>About us</h2>
       <p>We are Somya and Youness, a happy French-Moroccan married couple. <br><br>
       After working hard for almost 6 years in the tech ecosystem, me (Somya) as an E-store specialist and
@@ -212,9 +216,12 @@
       for the tourists, to regroup all the must dos we advice you to experience in these locations : Vietnam, Indonesia,
       Thailand, The Philippines, South-Korea, Japan, Cambodia, Malaysia, UAE and Saudi Arabia!
       We really hope you'll appreciate our tips !
- </p>
-    <div class="btn-article">
-      <%= link_to "Discover", "/about", class: "btn-article" %>
+      <br><br>With kindness <br>
+      Somya and Youness 🫰🏼
+      </p>
+      <div class="btn-article">
+        <%= link_to "Discover", "/about", class: "btn-article" %>
+      </div>
     </div>
   </div>
 </div>
