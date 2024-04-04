@@ -1202,7 +1202,7 @@ margin-right: 0% !important;
 .flex-img-hiw img{
   width: 85%;
   /* height: auto; */
-  margin-left: 8%;
+  margin-left: 0%;
 }
 
 .article-text .btn-article {
@@ -3867,5 +3867,136 @@ img{
   width: 100%;
   justify-content: center;
   margin-bottom: 0%;
+}
+}
+
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+
+  .navbar {
+    width: 100%;
+    height: 9% !important;
+}
+.navbar-collapse {
+  transition: auto;
+  height: 100% !important;
+}
+
+.nav-item{
+  border-bottom: 0px solid transparent !important;
+}
+
+.banner-hp-imp {
+  margin-top: 0%;
+}
+
+.wrapper.about .div-empower-team.last {
+  padding-top: 14% !important;
+  height: 40vh !important;
+  margin-bottom: 2% !important;
+}
+}
+
+@media screen and (min-width: 776px) and (max-width: 1189px) {
+
+
+.card-group {
+  gap: 25px;
+  width: 100%;
+  margin-left: 0%;
+  margin-bottom: 5%;
+}
+}
+
+@media screen and (min-width: 767px) and (max-width: 1189px) {
+
+.wrapper.about img {
+  display: none;
+}
+.wrapper.about p {
+  text-align: center;
+}
+
+.flex-logos {
+  margin-right: 0%;
+}
+  }
+
+
+  @media screen and (min-width: 773px) and (max-width: 907px) {
+
+  .card .info {
+    height: 76%;
+}
+  }
+
+@media screen and (min-width: 1036px) and (max-width: 1189px) {
+  .todo-scroll {
+    width: 145% !important;
+}
+
+.section-inner {
+  width: 200%;
+  margin-left: -27%;
+}
+
+.flex.hiw2{
+  margin-right: 0%;
+}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1073px) {
+.todo-scroll {
+  width: 152% !important;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .todo-scroll {
+    width: 209% !important;
+  }
+  }
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+
+  .container, .container-sm {
+    max-width: 100%;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+.section-inner {
+  margin-left: -5%;
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1035px) {
+
+.destructured-img-hiw {
+  flex-direction: column;
+  align-items: center;
+  img{
+    padding-bottom: 4%;
+    margin-right: 0% !important;
+  }
+}
+}
+
+button {
+ border: 0px solid transparent !important;
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 990px) {
+.banner.hp {
+  height: 100vh !important;
+}
+}
+
+.flex-bann-landing{
+  ::-webkit-scrollbar {
+    display: none;
 }
 }
