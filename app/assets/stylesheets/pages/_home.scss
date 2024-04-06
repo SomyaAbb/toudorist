@@ -3156,7 +3156,7 @@ button svg {
       font-size: 15px;
       line-height: 28px;
       font-weight: 300;
-      width: 70%;
+      width: 80%;
       text-align: center;
     }
   }
@@ -3216,6 +3216,7 @@ button svg {
   align-items:start;
   flex-direction: column;
   text-align: start;
+  justify-content: flex-start;
   width: 100%;
   margin-right: 0%;
   margin-left: 13%;
