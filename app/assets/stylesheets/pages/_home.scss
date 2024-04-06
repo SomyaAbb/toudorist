@@ -1934,7 +1934,7 @@ letter-spacing: -.140625vw;
   flex-direction: row;
   align-items: flex-end;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   width: 95%;
   justify-content: space-around;
   img{
@@ -3157,7 +3157,7 @@ button svg {
       line-height: 28px;
       font-weight: 300;
       width: 80%;
-      text-align: center;
+      text-align: justify;
     }
   }
 
@@ -3942,7 +3942,7 @@ img{
 }
 
 .flex.hiw2{
-  margin-right: 0%;
+  margin-right: 11%;
 }
 }
 
@@ -3951,6 +3951,12 @@ img{
   width: 152% !important;
 }
 }
+
+@media screen and (min-width: 1027px) and (max-width: 1109px) {
+  .layer {
+    display: none !important;
+  }
+  }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   .todo-scroll {
