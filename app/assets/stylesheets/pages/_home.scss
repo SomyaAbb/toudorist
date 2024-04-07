@@ -4037,13 +4037,18 @@ button {
   }
 }
 
-// .localicon img [src]{
-//   position: absolute;
-//   top: 5%;
-//   left: 95%;
-//   left: 88%;
-//   width: 17px;
-//   opacity: 0.6;
-//   /* color: red; */
-//   height: auto;
-// }
+.img-loc:hover{
+  transform: scale(1.05) rotate(3deg); /* Applique une légère augmentation de taille et une rotation de 3 degrés lors du survol */
+}
+
+.img-loc {
+  transition: transform 0.3s ease; /* Ajoute une transition fluide */
+}
+
+.img-loc:hover .iconuniqueloc {
+  opacity: 1 !important;
+}
+
+.img-loc .iconuniqueloc {
+  transition: opacity 0.3s ease; /* Transition douce sur l'opacité */
+}
